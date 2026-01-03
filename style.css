@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+:root{
+    --azul-fundo: #e4f2ff;
+    --azul-primario: #2563EB;
+    --azul-escuro: #0F172A;
+    --cinza-texto: #334155;
+    --cinza-suave: #CBD5E1;
+    --branco: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--azul-fundo);
+}
+header{
+    background-color: #2563EB;
+    padding: 20px;
+}
+h1{
+    color: var(--branco);
+    font-family: "Neuton", serif;
+    font-weight: 800;
+    font-size: 3.2em;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 1px 1px black;
+}
+h2{
+    font-family: "Neuton", serif;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    text-shadow: 1px 1px 1px black;
+}
+nav{
+    background-color: var(--azul-primario);
+    box-shadow: 1px 2px 10px black;
+    padding: 10px;
+}
+a{
+    padding: 10px;
+    color: var(--branco);
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: var(--cinza-suave); 
+    color: var(--azul-escuro);
+}
+
+main{
+    background-color: var(--branco);
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 0 0 12px 12px;
+}
+h3{
+    text-align: center;
+    font-size: 1.9em;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--azul-escuro);
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0 15px 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    padding: 20px;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 20px 10px;
+    border-radius: 15px;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+.curiosidades{
+    background-color: var(--azul-primario);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+ul{
+    list-style-position: inside;
+    padding: 10px;
+    background-color: var(--azul-fundo);
+    border-radius: 0 0 15px 15px;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+footer{
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
