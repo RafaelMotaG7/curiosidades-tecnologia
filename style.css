@@ -11,7 +11,7 @@
     --branco: #FFFFFF;
 }
 
-/* RESET */
+/* RESET GLOBAL */
 *{
     margin: 0;
     padding: 0;
@@ -36,7 +36,7 @@ header h1{
     font-family: "Neuton", serif;
     font-weight: 800;
     font-size: 3.2em;
-    padding: 15px;
+    padding: 15px 10px;
     text-shadow: 2px 1px 1px black;
 }
 
@@ -107,7 +107,7 @@ img{
     border-radius: 10px;
 }
 
-/* VIDEO */
+/* VIDEO RESPONSIVO */
 .video{
     position: relative;
     padding-bottom: 56.25%;
@@ -131,20 +131,22 @@ img{
     background-color: var(--azul-primario);
     margin: 20px 0;
     border-radius: 15px;
-    overflow: hidden;
+    overflow: hidden; /* remove scroll interno */
 }
 
 .curiosidades h3{
     color: var(--branco);
+    padding: 15px 10px;
+    margin: 0;
 }
 
-ul{
+.curiosidades ul{
     list-style-position: inside;
     padding: 15px;
     background-color: var(--azul-fundo);
 }
 
-li{
+.curiosidades li{
     font-family: Arial, Helvetica, sans-serif;
     padding: 6px 0;
 }
