@@ -62,7 +62,7 @@ nav a{
     padding: 10px 14px;
     color: var(--branco);
     text-decoration: none;
-    transition-duration: 0.3s;
+    transition-duration: .7s;
     border-radius: 10px;
 }
 
@@ -131,7 +131,7 @@ img{
     background-color: var(--azul-primario);
     margin: 20px 0;
     border-radius: 15px;
-    overflow: hidden; /* remove scroll interno */
+    overflow: hidden;
 }
 
 .curiosidades h3{
